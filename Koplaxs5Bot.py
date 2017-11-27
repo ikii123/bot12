@@ -6,23 +6,23 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #Luffy
-cl.login(qr=True)
+cl.login(token="EnjKefN7Caccka9qNZtb.H+dRXvoaNG/IPKHG04nyIW.v00idzDY0Ro/fy6iCT3lcpKIVIUjxhWPtN+y2Dju8IE=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(qr=True)
+ki.login(token="EniXAB2syYuZMBVPv4Ma.Hfjy8gHHAs9Ua2zXW/K9MG.Vnown0qtuZ/Ux39MOiis6jnME4p9MJz10ZsamcwYhMg=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(qr=True)
+kk.login(token="EnooChFCZNJsxTgVv4k9.kspYxVhj2iSGBZAMV97OIq.vOgbN+ySt2wq+mB8/Ii2G7lEEHYeB45VCdwmDYNcH8c=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(qr=True)
+kc.login(token="En3RQmu5tUkYPmx3SIb0.qu6zj1QtHkbPUj7skrqeea.D9yfgg3F0yGUYzJozAfEddDgdEwyde91u5VQ9revbO8=")
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(qr=True)
+ks.login(token="Enb4ydxf8fOX3dQbiCW5.o2wBZnjjYki+1liQ5lzlrq.2Tgk3iJVAC6KkA5OYzxcOTZK9vee1ZkREOLXHRcvcqE=")
 ks.loginResult()
 
 print "login success plak"
@@ -88,22 +88,7 @@ wait = {
     'autoAdd':True,
     'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
 ≫ Aku Ga Jawab PM Karna aq Cuma Bot Protect ≪
-≫ ONE PIECE BOT PROTECT ≪
 
-Ready:
-
-≫ bot protect ≪
-≫ SelfBot ≪
-
-
-ṡȗƿƿȏяṭєԀ ɞʏ:
-  
-☆ ONE PIECE BOT PROTECT ☆
-☆ Destroyers ☆
-
-
-Minat? Silahkan PM!
-Idline: http://line.me/ti/p/~hanavy1992""",
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":False,
